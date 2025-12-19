@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Shorts Auto Scroller",
+  "version": "1.0",
+  "description": "Automatically plays each short and scrolls to next with timer",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Shorts Auto Scroller"
+  }
+}
